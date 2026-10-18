@@ -14,7 +14,7 @@ Android 原生二维桌宠项目。当前交付 **0.1.0-preview 技术验证工�
 
 **Inochi2D、JNI 和 OpenGL ES 模型渲染尚未接入。** 页面上的测试角色使用 Android Canvas，不能证明 Inochi2D 兼容、图形性能或模型导入闭环。选中的模型只保存原始字节，不解析、不校验模型内容，也不会替换测试角色。后续继续按既有 Inochi2D 验证路线推进。
 
-实际执行结果见 [验证记录](docs/validation/2026-10-19-preview.md)。代码中已有实现与测试用例，不代表每种设备行为都已通过实测。
+Linux 和 **macOS ARM64** 的编译、JVM 测试、Lint 已通过；Android 15 模拟器的应用外悬浮、拖动、停止测试已通过。实际提交与报告见 [验证记录](docs/validation/2026-10-19-preview.md)。尚未进行手机真机测试，也未验证 Inochi2D。
 
 ## 在另一台 Mac 接手
 
