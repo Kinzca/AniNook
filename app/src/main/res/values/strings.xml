@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AniNook</string>
+    <string name="notification_channel">桌宠陪伴</string>
+    <string name="notification_title">AniNook 正在陪伴你</string>
+    <string name="notification_text">点此打开设置 · 可随时停止</string>
+    <string name="stop_pet">停止陪伴</string>
+</resources>
